@@ -32,25 +32,30 @@ nav.button {
 header.masthead {
     text-align: center;
     color: black;
-    background-image: url("../img/header-desk-1.jpg");
+    background-image: url("../img/header-desk-rainbow.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center top;
     background-size: cover;
     font-family: 'Josefin Sans', sans-serif;
+    height: 725px;
   }
 
   header.masthead .intro-text {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 225px;
+    padding-bottom: 250px;
   }
 
   header.masthead .intro-lead-in {
-    font-size: 80px;
+    font-size: 100px;
   }
   
   header.masthead .intro-heading {
     font-size: 30px;
+  }
+
+  #masthead-arrows {
+    width: 20%;
   }
 
   section {
@@ -68,9 +73,38 @@ header.masthead {
   }
 
   .services-icons {
-      width: 30%;
+      width: 60%;
   }
 
+  #portfolio {
+    text-align: center;
+  }
+
+  #portfolio h4 {
+    padding-top: 20px;
+  }
+
+  .portfolio-image {
+    width: 80%;
+  }
+  
   #headshot {
       width: 100%;
+      border-radius: 50%;
+  }
+
+  #buttonTop {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url("../img/rainbow-gradient.jpeg");
+    background-repeat: no-repeat;    
+    color: white;
+  }
+
+  .hideButton {
+    display: none;
   }
