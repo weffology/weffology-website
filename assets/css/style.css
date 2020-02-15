@@ -1,0 +1,76 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+a {
+  color: black;
+}
+
+nav.button {
+  color: black;
+}
+
+.navStart {
+  background-color: #f8f9fa;
+}
+
+.navScroll {
+  background-color: black;
+  color: white;
+}
+
+#navbarItems {
+    text-align: right;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header.masthead {
+    text-align: center;
+    color: black;
+    background-image: url("../img/header-desk-1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center top;
+    background-size: cover;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+  header.masthead .intro-text {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  header.masthead .intro-lead-in {
+    font-size: 80px;
+  }
+  
+  header.masthead .intro-heading {
+    font-size: 30px;
+  }
+
+  section {
+    padding: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+  section h3 {
+    font-family: 'Mr Dafoe', cursive;
+    padding-bottom: 20px;
+}
+
+  #services img {
+      padding-bottom: 20px;;
+  }
+
+  .services-icons {
+      width: 30%;
+  }
+
+  #headshot {
+      width: 100%;
+  }
