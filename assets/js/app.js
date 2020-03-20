@@ -9,7 +9,7 @@ $(document).ready(function () {
       $("nav").removeClass("navStart");
       $("nav").addClass("navbar-dark");
       // $("#buttonTop").removeClass("hideButton");
-      $("#mainLogo").attr("src", "assets/img/weffology-logo-white.png");
+      $("#mainLogo").attr("src", "assets/img/stephanie-rose-logo-white-no-tagline.png");
     } else if ($(document).scrollTop() < 700) {
       $("nav").removeClass("navScroll");
       $("nav a").removeClass("navScroll");
@@ -17,7 +17,7 @@ $(document).ready(function () {
       $("nav").addClass("navbar-light");
       $("nav").addClass("navStart");
       // $("#buttonTop").addClass("hideButton");
-      $("#mainLogo").attr("src", "assets/img/weffology-logo.png");
+      $("#mainLogo").attr("src", "assets/img/stephanie-rose-logo-black-no-tagline.png");
     }
   };
 
